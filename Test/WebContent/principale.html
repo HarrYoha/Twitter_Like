@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<title>Principale</title>
+<link href="principale.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<span class="logo"><img src="logo.png" alt="logo" width=50></span>
+			<span class="search"><label for="input_search"></label><input
+				id="input_search" type="text" id="search" placeholder="Rechercher" />
+				<button id="search_logo" onclick="search_message()">
+					<img src="search.png" alt="loupe" width="11" height="11">
+				</button> </span> <span class="deconnexion"><button id="decon"
+					value="Deconnexion" onclick="deconnecte()">Deconnexion</button> </span>
+
+		</div>
+	</header>
+
+	<div id="total" style="width: 100%">
+
+		<div id="part_one" style="width: 55%; float: left;">
+
+
+			<br /> <br />
+			<div id="write_msg">
+				<span> <textarea id="ecrire_message"
+						placeholder="Ecrire votre message" cols="70" rows="5"></textarea>
+					<input type="button" onclick="ecrire_message()" value="publier">
+				</span>
+			</div>
+			<h2></h2>
+
+			<div id="principale">
+				<div id="messages"></div>
+				<h4>Mes messages:</h4>
+				<div id="msg_connex"></div>
+			</div>
+
+
+			<h5>Les messages de vos amis:</h5>
+			<div id="msg_amis"></div>
+
+			<div>
+				Rajoutez un ami <span><input type="text" id="ajouter_ami"
+					placeholder="Ecrire le login de votre ami" /> <input type="button"
+					onclick="ajouter_ami()" value="rajoutez"> </span>
+			</div>
+			<br />
+
+
+			<div>Liste de vos amis</div>
+			<div id="lst_amis"></div>
+			<div id="div_error"></div>
+
+		</div>
+		<div id="part_two" style="float: right;">
+			<div id="stat_nb_mess"></div>
+			<button id="list_con" value ="voir vos amis connectes" onclick="listConnected()">Voir vos amis connectes</button>
+		</div>
+
+
+
+	</div>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/message.js"></script>
+	<script src="js/connexion.js"></script>
+</body>
+</html>

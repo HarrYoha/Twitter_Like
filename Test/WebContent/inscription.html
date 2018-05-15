@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<title>Inscription</title>
+<meta charset="utf-8" />
+<link href="inscription.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<header>
+		<div id="logo">
+			<img src="logo.png" alt="logo" width=50>
+			<h1>Rejoindre Twister</h1>
+		</div>
+	</header>
+
+
+	<div id="connexion_main">
+		<form  action="javascript:(function(){return;})()"
+			method="POST">
+
+			<div class="ids">
+				<span>Prénom</span> <input type="text" id="prenom" />
+			</div>
+
+
+			<div class="ids">
+				<span>Nom</span> <input type="text" id="nom" />
+			</div>
+
+			<div class="ids">
+				<span>Login</span> <input type="text" id="login" />
+			</div>
+
+
+			<div class="ids">
+				<span>Mot de passe</span> <input type="password" id="password" />
+			</div>
+
+			<div class="ids">
+				<span>Retapez</span> <input type="password" id="retapez" />
+			</div>
+
+
+
+			<div class="buttons">
+				<input type="button" onclick="makeConnexionPanel()" value="Annuler">
+				<input type="submit" value="Inscription" onclick="enregistrement()">
+			</div>
+
+
+
+		</form>
+	</div>
+	<div id="div_error"></div>
+	<script type="text/javascript"
+		src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/connexion.js"></script>
+</body>
+</html>

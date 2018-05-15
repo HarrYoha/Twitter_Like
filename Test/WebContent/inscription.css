@@ -1,0 +1,81 @@
+body {
+    background-image:url(wor.png);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-position: center; 
+}
+
+
+header #logo{
+        text-align: left;    
+}
+
+header h1 {
+	color:rgb(40, 157, 224);
+	text-align:center;
+    margin-bottom:30px;
+	text-shadow:1px 1px 1px rgb(79, 111, 209);
+}
+
+#connexion_main .ids {
+    margin: 8px;
+    color:rgb(29, 121, 179);
+	font-family:'Lato', sans-serif; 
+	text-align:left;
+	margin-bottom:30px;
+    text-shadow:1px 1px 1px rgb(106, 133, 214);
+}
+
+#connexion_main{
+    animation-name:test;
+    animation-duration: 2s;
+}
+
+
+@keyframes test{
+    from        /* Gére l'opacité */
+    {
+        opacity:0.1;}
+    to
+    {
+        opacity:1;
+    } 
+}
+
+  
+
+textarea {
+
+        font-family: 'Lato', sans-serif;
+        font-size: 15px; 
+        line-height: 1.6;
+}
+    
+    
+
+input[type="submit"]{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%); border: 1px;    
+    font-size: 16px;
+}
+
+input[type="button"]{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%); border: 1px;    
+    font-size: 16px;
+}
+
+span { 
+   display: block;
+   width: 100px;
+   height: 25px;
+   float: left;
+   
+}
+

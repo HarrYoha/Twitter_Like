@@ -1,0 +1,82 @@
+
+
+body {
+    background-image:url(wor.png);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-position: center; 
+}
+
+header #logo{
+    text-align: left;    
+}
+
+
+h1 {
+    color:rgb(40, 157, 224);
+    text-align:center;
+    margin-bottom:30px;
+    text-shadow:1px 1px 1px rgb(40, 157, 224);
+    font-family:'Lato', sans-serif; 
+
+}
+
+h2 {
+    color:rgb(40, 157, 224);
+    font-family:'Lato', sans-serif; 
+    text-align:left;
+    margin-bottom:30px;
+    text-shadow:1px 1px 1px rgb(40, 157, 224);
+}
+
+#connexion_main .ids {
+    margin: 8px;
+    color:rgb(29, 121, 179);
+    font-family:'Lato', sans-serif; 
+    text-align:left;
+    margin-bottom:30px;
+    text-shadow:1px 1px 1px rgb(40, 157, 224);
+    animation-name: test;
+    animation-duration: 2s;
+}
+
+
+@keyframes test{
+    from        
+    {
+        opacity:0.1;}
+    to
+    {
+        opacity:1;
+    } 
+}
+
+
+#connexion_main .buttons{
+	margin-bottom: 20px;
+}
+
+#connexion_main #link1{
+	margin-bottom: 10px;
+	color:blue
+}
+
+#connexion_main #link2{
+	color:blue
+}
+
+#connexion_main span{
+	   display: block;
+    	   width:100px;
+	   height:20px;
+	   float:left;
+}
+
+input[type="submit"]{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 5px 25px;
+    cursor: pointer;
+    background-image: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);    border: 1px;    
+    font-size: 16px;
+}
